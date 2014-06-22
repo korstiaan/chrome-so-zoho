@@ -16,6 +16,10 @@ Currently it does the following:
 
 The prebuild package can be downloaded from http://www.korstiaan.com/so-zoho/so-zoho.crx
 
+For security reasons Chrome doesn't allow easy installation of non-webstore extensions. Fortunately
+CNET has a detailed [article](http://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
+on how to install these.
+
 Firefox Add-on can be found at https://github.com/korstiaan/firefox-so-zoho
 
 ## Development
