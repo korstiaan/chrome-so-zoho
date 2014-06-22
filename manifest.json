@@ -5,9 +5,9 @@
   "version": "0.1",
   "content_scripts": [
     {
-      "matches": ["*://projects.zoho.com/*#buginfo*"],
-      "css": ["vendor/so-zoho/style.css"],
-      "js": ["vendor/jquery/dist/jquery.min.js", "vendor/so-zoho/script.js"]
+      "matches": ["*://projects.zoho.com/*"],
+      "css": ["vendor/so-zoho/dist/style.css"],
+      "js": ["vendor/jquery/dist/jquery.min.js", "vendor/so-zoho/dist/script.js"]
     }
   ]
 }
