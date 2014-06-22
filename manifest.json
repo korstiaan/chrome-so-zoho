@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "SO ZOHO",
+  "description": "Chrome extension which makes your ZOHO experience more pleasant",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://projects.zoho.com/*#buginfo*"],
+      "css": ["vendor/so-zoho/style.css"],
+      "js": ["vendor/jquery/dist/jquery.min.js", "vendor/so-zoho/script.js"]
+    }
+  ]
+}
